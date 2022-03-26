@@ -8,6 +8,7 @@ if width<height:
       print(x)
    else:
       print(width)
+      print(width)
 else:
    if height>y:
       print(y)
