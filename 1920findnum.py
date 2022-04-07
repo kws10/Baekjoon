@@ -1,15 +1,16 @@
 
-a = int(input())
+
 list_a = []
 list_b = []
-answer = []
 
-for i in range(a):
-    list_a.append(input())
+a = int(input())
+list_a = list(map(int,input().split()))
 
 b = int(input())
+list_b = list(map(int,input().split()))
 
-for i in range(b):
-    list_b.append(input())
-
-
+for i in range(len(list_b)):
+    if list_b[i] in list_a:
+       print(1)
+    else:
+       print(0)
