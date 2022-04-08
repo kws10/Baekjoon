@@ -1,16 +1,11 @@
+# 이진 탐색으로 풀어야됨
+# 이진 탐색은 정렬 되어있는 리스트에서 적용
+
+def binary_search(a,x): # (리스트 , 서치값 )
+    start = 0
+    end = len(a) - 1
 
 
-list_a = []
-list_b = []
 
-a = int(input())
-list_a = list(map(int,input().split()))
 
-b = int(input())
-list_b = list(map(int,input().split()))
 
-for i in range(len(list_b)):
-    if list_b[i] in list_a:
-       print(1)
-    else:
-       print(0)
