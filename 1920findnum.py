@@ -14,6 +14,8 @@ def binary_search(a,search): # (리스트 , 서치값 )
     elif mid > search:
        end = mid
 
+
+for i in range 
     
 
 
