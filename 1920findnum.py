@@ -21,6 +21,7 @@ def binary_search(arr,search,start,end): # (리스트 , 서치값, start , end)
     return False
 
 n = int(input())
+
 list_n = list(map(int, sys.stdin.readline().split()))
 
 k = int(input())
