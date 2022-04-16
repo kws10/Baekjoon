@@ -24,6 +24,8 @@ n = int(input())
 
 list_n = list(map(int, sys.stdin.readline().split()))
 
+
+
 k = int(input())
 find = list(map(int, sys.stdin.readline().split()))
 
