@@ -8,5 +8,3 @@ print(math.lcm(a,b))
 
 
 
-
-
