@@ -34,15 +34,3 @@ for i in range(k):
        print("1")
     else:
        print("0")
-
-
-
-
-
-
-
-
-
-
-
-

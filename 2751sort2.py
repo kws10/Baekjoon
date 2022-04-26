@@ -1,15 +1,14 @@
-# n이 엄청 많아서 이렇게 풀면 시간 초과 뜬다.
+import sys
 
-case = int(input()) # 케이스 수 입력 받고
-list = [] # 수 넣을 리스트 선언
+n = int(sys.stdin.readline())
+a = []
+b = []
 
-for i in range(case): # 케이스 수 만큼 반복문 돌림
-    x = int(input()) # x 인풋 받고
-    list.append(x) # 리스트에 어펜드
+for i in range(n):
+    a.append(int(sys.stdin.readline()))
 
-list.sort() # 리스트 솔팅
+b=sorted(a)
 
-for i in list: # i가 리스트 돌면서
-    print(i)
-
+for j in b:
+    print(j)
 
