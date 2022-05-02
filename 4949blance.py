@@ -15,7 +15,6 @@ while(snt != '.'):
     else:
        print('no')
 
-
     snt = list(sys.stdin.readline().split())
 
 
